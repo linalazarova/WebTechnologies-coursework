@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    margin-top: 60px;
+    font-family: 'Roboto Mono', monospace;
+    font-size:14px;
+    color:white;
+    background-image: url("body1.png");
+    background-size:cover;
+}
+
+body.page-3{
+    background-image: url(body1.png);
+    background-size:cover; 
+}
+
+
+div#wrapperHeader {
+    width:100%;
+    height:200px; 
+    text-align:center;
+}
+
+div#wrapperHeader div#header {
+    width:1000px;
+    height:200px;
+    margin:0 auto;
+}
+   
+div#wrapperHeader div#header img#top {
+    width:1000px; 
+    height:55px; 
+    margin:auto;
+}
+
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    line-height: 70px;
+}
+
+header * {
+    display: inline;
+    height: 100px;
+}
+
+#buttons {
+    position: absolute;
+    bottom:-20px;
+    left:400px;
+}
+
+.button{
+    font-size:18px;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+h1{
+    text-align:center;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-size:50px;
+}
+
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+section p{
+    font-size:18px;
+}
+
+.book{
+    text-align:justify;
+}
+
+p{
+    font-size:17px;
+    text-align:left;
+}
+
+article{
+    margin: auto;
+    width: 60%;  
+}
+
+td{
+    text-align: justify;
+}
+
+div#characters article {
+    margin:20px;
+    margin-left:375px;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+div#characters article h2{
+    text-align:left;
+    font-size:20px;
+    text-decoration: underline;
+}
+
+td{
+    text-align: justify;
+}
+
+h2{
+    font-size:16px;
+    text-align:center ;
+}
+
+#ships{
+    position: absolute;
+    bottom:500px;
+    left:285px;
+}
+
+.ship{
+    font-size:40px;
+    margin-left:20px;
+    color:white;
+    text-decoration: none;
+}
+
+#alexander{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#copernicus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#hypatia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#heimdall{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container{
+    padding-left: 500px; 
+    padding-right: 0px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;   
+}
+    
+li{
+    display: inline-block; 
+    margin: 15px; 
+    padding: 10px; 
+    vertical-align: top;
+    text-align:center;
+    font-size:15px;
+}
+
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+#pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div#authors p{
+    text-align:justify;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#txt{   
+    position:absolute;
+    color:white;
+    left:10px;
+    top:10px;
+    font-size:20px;
+}
+
+
